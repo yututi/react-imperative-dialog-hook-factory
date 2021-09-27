@@ -9,9 +9,9 @@ npm i @yututi/react-imperative-dialog-hook-factory
 
 ## Usage
 
-This library does not provide hook.
-You can implement hooks via `createDialogHook`.
-A sample implementation is below.
+This library does not provide hook.  
+You can implement hooks via `createDialogHook`.  
+A sample implementation is below. (Runnning [here](https://yututi.github.io/react-imperative-dialog-hook-factory/))
 
 1. Define frame part of dialog.
 
