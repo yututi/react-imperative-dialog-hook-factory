@@ -15,7 +15,9 @@ A sample implementation is below.
 
 1. Define frame part of dialog.
 
-  ```js
+  ```jsx
+  import { createDialogHook } from "@yututi/react-imperative-dialog-hook-factory"
+
   export const createDefaultDialogHook = function(render) {
     return createDialogHook({
       render,
@@ -34,8 +36,8 @@ A sample implementation is below.
   ```
 
 1. Create useDialog hook.
-
-  ```js
+  
+  ```jsx
   const useOkOrCancelDialog = createDefaultDialogHook(close => {
 
   const onOk = () => {
@@ -59,7 +61,7 @@ A sample implementation is below.
   ```
 
 1. Use hook in your component.
-  ```js
+  ```jsx
   const App = () => {
 
     const [text, setText] = useState("")
