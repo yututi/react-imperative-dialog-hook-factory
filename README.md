@@ -1,6 +1,6 @@
-# React imperative dialog hook
+# React imperative dialog hook factory
 
-A sample implementaion of dialog component using react hook that can use imperative.
+A sample implementaion of dialog hook using react hook that can use imperative.
 
 ## Installation
 ```
