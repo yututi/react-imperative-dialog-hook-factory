@@ -40,22 +40,22 @@ A sample implementation is below. (Runnning [here](https://yututi.github.io/reac
     ```jsx
     const useOkOrCancelDialog = createDefaultDialogHook(close => {
 
-    const onOk = () => {
-      close({ok: true})
-    }
+      const onOk = () => {
+        close({ok: true})
+      }
 
-    const onCancel = () => {
-      close({ok: false})
-    }
+      const onCancel = () => {
+        close({ok: false})
+      }
 
-    return (
-      <div>
-        This is sample dialog.
-        <div className="actions">
-          <button onClick={onCancel}>Cancel</button>
-          <button onClick={onOk}>OK</button>
+      return (
+        <div>
+          This is sample dialog.
+          <div className="actions">
+            <button onClick={onCancel}>Cancel</button>
+            <button onClick={onOk}>OK</button>
+          </div>
         </div>
-      </div>
       )
     })
     ```
