@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "A sample implementaion of dialog component using react hook that can use imperative.",
   "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --build",
