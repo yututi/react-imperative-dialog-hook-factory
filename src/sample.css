@@ -1,0 +1,25 @@
+.dialog {
+  background-color: white;
+  border: solid 1px gainsboro;
+  display: flex;
+  flex-direction: column;
+}
+.dialog__header {
+  margin-bottom: 10px;
+  border-bottom: 1px solid gainsboro;
+  padding: 20px;
+}
+.dialog__body {
+  flex: 1;
+  padding: 20px;
+}
+.close {
+  cursor: pointer;
+}
+.actions {
+  padding-top: 20px;
+  text-align: right;
+}
+.actions > button:not(:first-child) {
+  margin-left: 10px;
+}
