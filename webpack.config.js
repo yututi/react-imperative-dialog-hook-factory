@@ -8,7 +8,7 @@ const isProduction = process.env.NODE_ENV == "production";
 const config = {
   entry: "./src/SampleApp.tsx",
   output: {
-    path: path.resolve(__dirname, "dist"),
+    path: path.resolve(__dirname, "docs"),
   },
   devServer: {
     open: true,
